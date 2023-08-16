@@ -1,9 +1,16 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+   import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+   <main>
+      <h1>THIS IS THE HOME PAGE.</h1>
+      <RouterLink to="/test-theme">Link to the first test theme</RouterLink>
+   </main>
 </template>
+
+<style lang="scss" scoped>
+   main {
+      background-color: purple;
+   }
+</style>
