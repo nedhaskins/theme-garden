@@ -1,4 +1,8 @@
-<script setup></script>
+<!--this is going to be taken out-->
+
+<script setup>
+	import { RouterLink } from 'vue-router';
+</script>
 <template>
 	<mast-head>
 		<div class="left">
@@ -11,7 +15,7 @@
 			<nav class="site-menu">
 				<ul>
 					<li>
-						<a href="#">Home</a>
+						<RouterLink to="/">Home</RouterLink>
 					</li>
 					<li>
 						<a href="#">Outer <wbr />Banks <wbr />Info</a>
@@ -19,6 +23,7 @@
 				</ul>
 			</nav>
 		</div>
+
 		<nav class="user-menu">
 			<ul>
 				<li>

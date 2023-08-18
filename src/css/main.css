@@ -1,6 +1,7 @@
-/*@import './base.css';*/
+@import './reset.css';
+@import './setup.css';
 
-#app {
+/*#app {
    max-width: 1280px;
    margin: 0 auto;
    padding: 2rem;
@@ -33,3 +34,4 @@ a,
       padding: 0 2rem;
    }
 }
+*/
