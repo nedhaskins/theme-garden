@@ -112,9 +112,9 @@
 		}
 
 		.links {
+			width: 100%;
 			flex-direction: row;
-			gap: 3.125rem;
-			align-items: start;
+			justify-content: space-evenly;
 
 			div + div {
 				margin-top: unset;
@@ -138,10 +138,13 @@
 		.footer-top {
 			flex-direction: row;
 			gap: 3.75rem;
+			align-items: start;
 		}
 
 		.links {
 			flex: 3;
+			justify-content: unset;
+			gap: 3.125rem;
 		}
 
 		.subscribe-module {
@@ -180,7 +183,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 100%;
+		// width: 100%;
 		// border: 3px solid red;
 		svg {
 			width: 100%;
