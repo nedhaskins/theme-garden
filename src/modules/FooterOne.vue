@@ -42,7 +42,7 @@
 		</section>
 
 		<section class="footer-bottom">
-			<logo><img src="@/assets/images/logo-placeholder.svg" /></logo>
+			<logo-wrapper><img src="@/assets/images/logo-placeholder.svg" /></logo-wrapper>
 
 			<nav>
 				<ul>
@@ -76,14 +76,16 @@
 </template>
 
 <style lang="scss" scoped>
+	footer.one {
+		border: 3px solid yellow;
+		background-color: black;
+		color: white;
+		padding: 1rem 2rem;
+	}
+
 	.links {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-	}
-
-	footer.one {
-		background-color: black;
-		color: white;
 	}
 
 	.footer-bottom {
@@ -92,7 +94,7 @@
 		grid-template-columns: repeat(3, 1fr);
 	}
 
-	logo {
+	logo-wrapper {
 		display: block;
 		padding: 1rem;
 		background-color: red;
