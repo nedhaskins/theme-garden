@@ -117,18 +117,34 @@
 
 	.footer-bottom {
 		border: 3px solid yellow;
+		margin-top: 3rem;
+
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
+
+		nav {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+			ul {
+				display: flex;
+				height: 100%;
+				flex-direction: column;
+				justify-content: space-evenly;
+			}
+		}
 	}
 
 	logo-wrapper {
-		display: block;
-		padding: 1rem;
-		background-color: red;
-	}
-
-	.svg-icon {
-		display: block;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		border: 3px solid red;
+		svg {
+			width: 100%;
+		}
 	}
 
 	footer.bottom {
@@ -137,7 +153,14 @@
 
 	.icon-section {
 		border: 3px solid cyan;
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		a {
+			border: 3px solid pink;
+
+			width: 37px;
+		}
 	}
 </style>
