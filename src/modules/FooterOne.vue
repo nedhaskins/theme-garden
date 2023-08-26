@@ -1,5 +1,5 @@
 <script setup>
-	import EmailSubmitOne from '@/components/forms/EmailSubmitOne.vue';
+	import SubscribeModule from '@/modules/SubscribeModule.vue';
 </script>
 
 <template>
@@ -38,12 +38,11 @@
 				</div>
 			</section>
 
-			<!--rendering one of the component options for email submit forms-->
-			<EmailSubmitOne />
+			<SubscribeModule />
 		</section>
 
 		<section class="footer-bottom">
-			<logo><img src="./assets/images-logo-placeholder.svg" /></logo>
+			<logo><img src="@/assets/images/logo-placeholder.svg" /></logo>
 
 			<nav>
 				<ul>
@@ -55,18 +54,20 @@
 
 			<div class="icon-section">
 				<a href="http://www.linkedin.com">
-					<div class="svg-wrapper">
-						<img src="./assets/images/linkedin.svg" />
+					<div class="svg-icon">
+						<img src="@/assets/images/linkedin.svg" />
 					</div>
 				</a>
 
 				<a href="http://www.facebook.com">
-					<img src="./assets/images/facebook.svg" />
+					<div class="svg-icon">
+						<img src="@/assets/images/facebook.svg" />
+					</div>
 				</a>
 
 				<a href="http://www.twitter.com">
-					<div class="svg-wrapper">
-						<img src="./assets/images/twitter.svg" />
+					<div class="svg-icon">
+						<img src="@/assets/images/twitter.svg" />
 					</div>
 				</a>
 			</div>
@@ -74,4 +75,40 @@
 	</footer>
 </template>
 
-<style></style>
+<style lang="scss" scoped>
+	.links {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	footer.one {
+		background-color: black;
+		color: white;
+	}
+
+	.footer-bottom {
+		border: 3px solid yellow;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	logo {
+		display: block;
+		padding: 1rem;
+		background-color: red;
+	}
+
+	.svg-icon {
+		display: block;
+	}
+
+	footer.bottom {
+		background-color: red;
+	}
+
+	.icon-section {
+		border: 3px solid cyan;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+</style>
