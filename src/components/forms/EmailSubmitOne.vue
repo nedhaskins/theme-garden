@@ -13,4 +13,26 @@
 	</form>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+	.email-submit {
+		display: flex;
+		flex-direction: row;
+		margin-top: 1.25rem;
+
+		input {
+			flex: 1;
+		}
+	}
+
+	.email-submit button {
+		display: block;
+		border: 0;
+		border-radius: 0 0.375rem 0.375rem 0;
+		background-color: black;
+		padding: 0.625rem;
+
+		svg path {
+			stroke: white;
+		}
+	}
+</style>

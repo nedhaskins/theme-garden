@@ -77,15 +77,42 @@
 
 <style lang="scss" scoped>
 	footer.one {
-		border: 3px solid yellow;
+		// border: 3px solid lime;
 		background-color: black;
 		color: white;
-		padding: 1rem 2rem;
+		padding: 3.125rem 1.875rem;
+	}
+
+	.footer-top {
+		// border: 3px solid yellow;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.links {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		// border: 3px solid orange;
+
+		div + div {
+			margin-top: 1.875rem;
+		}
+
+		a {
+			line-height: 1.21rem;
+		}
+	}
+
+	.link-column {
+		justify-self: center;
+
+		ul {
+			margin-top: 1rem;
+
+			li {
+				margin-top: 0.625rem;
+			}
+		}
 	}
 
 	.footer-bottom {

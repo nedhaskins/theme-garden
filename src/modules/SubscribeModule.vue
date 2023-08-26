@@ -17,8 +17,18 @@
 
 <style lang="scss" scoped>
 	.subscribe-module {
-		border: 3px solid cyan;
+		border: 3px solid lime;
 		background-color: green;
-		padding: 20px;
+		padding: 1.875rem;
+		margin-top: 2.5rem;
+
+		.text {
+			font-size: 0.75rem;
+			line-height: 1.275rem;
+			text-align: left;
+			vertical-align: top;
+			opacity: 70%;
+			margin-top: 1.125rem;
+		}
 	}
 </style>
