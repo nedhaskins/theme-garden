@@ -94,12 +94,31 @@
 	.links {
 		// border: 3px solid orange;
 
+		display: flex;
+		flex-direction: column;
+
 		div + div {
 			margin-top: 1.875rem;
 		}
 
 		a {
 			line-height: 1.21rem;
+		}
+	}
+
+	@media (min-width: 720px) {
+		footer.one {
+			padding: 3.125rem;
+		}
+
+		.links {
+			flex-direction: row;
+			gap: 3.125rem;
+			align-items: start;
+
+			div + div {
+				margin-top: unset;
+			}
 		}
 	}
 
@@ -115,8 +134,24 @@
 		}
 	}
 
+	@media (min-width: 900px) {
+		.footer-top {
+			flex-direction: row;
+			gap: 3.75rem;
+		}
+
+		.links {
+			flex: 3;
+		}
+
+		.subscribe-module {
+			flex: 2;
+			margin-top: unset;
+		}
+	}
+
 	.footer-bottom {
-		border: 3px solid yellow;
+		// border: 3px solid yellow;
 		margin-top: 3rem;
 
 		display: grid;
@@ -131,7 +166,12 @@
 				display: flex;
 				height: 100%;
 				flex-direction: column;
-				justify-content: space-evenly;
+				justify-content: center;
+				gap: 0.6875rem;
+			}
+
+			a {
+				text-align: center;
 			}
 		}
 	}
@@ -141,7 +181,7 @@
 		flex-direction: column;
 		justify-content: center;
 		width: 100%;
-		border: 3px solid red;
+		// border: 3px solid red;
 		svg {
 			width: 100%;
 		}
@@ -152,15 +192,22 @@
 	}
 
 	.icon-section {
-		border: 3px solid cyan;
+		// border: 3px solid cyan;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 
 		a {
-			border: 3px solid pink;
+			// border: 3px solid pink;
 
 			width: 37px;
+		}
+	}
+
+	@media (min-width: 460px) {
+		.icon-section {
+			flex-direction: row;
+			justify-content: space-evenly;
 		}
 	}
 </style>

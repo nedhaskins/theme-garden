@@ -17,7 +17,7 @@
 
 <style lang="scss" scoped>
 	.subscribe-module {
-		border: 3px solid lime;
+		// border: 3px solid lime;
 		background-color: green;
 		padding: 1.875rem;
 		margin-top: 2.5rem;
