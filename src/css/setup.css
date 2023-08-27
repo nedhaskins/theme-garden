@@ -24,13 +24,14 @@ a:active {
 	color: purple;
 }
 
-p a {
+/*p a {
 	display: inline;
 	color: blue;
 	text-decoration: underline;
-}
+}*/
 
-picture {
+picture,
+svg-wrapper {
 	display: block;
 }
 
