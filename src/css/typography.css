@@ -11,3 +11,9 @@ a {
 .loud-voice {
 	font-weight: 700;
 }
+
+h3 {
+	font-size: 3rem;
+	letter-spacing: 0.0125rem;
+	line-height: 3.625rem;
+}
