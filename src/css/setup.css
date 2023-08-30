@@ -10,6 +10,10 @@ html {
 }
 /*******/
 
+inner-column {
+	display: block;
+}
+
 a {
 	display: block;
 	text-decoration: none;
