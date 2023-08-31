@@ -33,10 +33,8 @@
 
 		<div class="feature-list one">
 			<div class="feature-item">
-				<svg-wrapper>
+				<svg-wrapper class="circle">
 					<svg
-						width="100%"
-						height="100%"
 						viewBox="0 0 316 316"
 						version="1.1"
 						xmlns="http://www.w3.org/2000/svg"
@@ -71,10 +69,8 @@
 			<!--feature-item-->
 
 			<div class="feature-item">
-				<svg-wrapper>
+				<svg-wrapper class="circle">
 					<svg
-						width="100%"
-						height="100%"
 						viewBox="0 0 316 316"
 						version="1.1"
 						xmlns="http://www.w3.org/2000/svg"
@@ -108,10 +104,8 @@
 			</div>
 
 			<div class="feature-item">
-				<svg-wrapper>
+				<svg-wrapper class="circle">
 					<svg
-						width="100%"
-						height="100%"
 						viewBox="0 0 316 316"
 						version="1.1"
 						xmlns="http://www.w3.org/2000/svg"
@@ -145,10 +139,8 @@
 			</div>
 
 			<div class="feature-item">
-				<svg-wrapper>
+				<svg-wrapper class="circle">
 					<svg
-						width="100%"
-						height="100%"
 						viewBox="0 0 316 316"
 						version="1.1"
 						xmlns="http://www.w3.org/2000/svg"
@@ -182,10 +174,8 @@
 			</div>
 
 			<div class="feature-item">
-				<svg-wrapper>
+				<svg-wrapper class="circle">
 					<svg
-						width="100%"
-						height="100%"
 						viewBox="0 0 316 316"
 						version="1.1"
 						xmlns="http://www.w3.org/2000/svg"
@@ -264,6 +254,19 @@
 		margin-top: 1rem;
 	}
 
+	.feature-item .placeholder {
+		max-width: 3.75rem;
+	}
+
+	.circle {
+		display: flex;
+		align-items: center;
+		svg {
+			width: 3.75rem;
+			height: 3.75rem;
+		}
+	}
+
 	@media (min-width: 600px) {
 		.feature.one {
 			padding: 5rem 7.5rem;
@@ -285,12 +288,6 @@
 
 		:is(.feature-list.one, .feature-list.one .feature-item):nth-of-type(1) {
 			margin-top: unset;
-		}
-	}
-
-	.feature-item {
-		svg-wrapper {
-			max-width: 3.75rem;
 		}
 	}
 </style>
