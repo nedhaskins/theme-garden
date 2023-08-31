@@ -218,7 +218,7 @@
 	}
 
 	.feature.one {
-		border: 3px solid red;
+		// border: 3px solid red;
 		margin-top: 5rem;
 		padding: 0 1.875rem;
 
