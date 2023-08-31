@@ -269,7 +269,7 @@
 
 	@media (min-width: 600px) {
 		.feature.one {
-			padding: 5rem 7.5rem;
+			padding: 0 7.5rem;
 		}
 	}
 
@@ -286,7 +286,8 @@
 			gap: 4.125rem;
 		}
 
-		:is(.feature-list.one, .feature-list.one .feature-item):nth-of-type(1) {
+		.feature-list.one,
+		.feature-list.one .feature-item:nth-of-type(1) {
 			margin-top: unset;
 		}
 	}

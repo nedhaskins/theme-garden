@@ -21,6 +21,7 @@
 <style lang="scss" scoped>
 	.hero.one {
 		background-image: unset;
+		background-color: #dcfeb7;
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
