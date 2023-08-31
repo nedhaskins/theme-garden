@@ -7,7 +7,7 @@
 		<div class="feature-head">
 			<HeaderAndText />
 
-			<svg-wrapper>
+			<svg-wrapper class="placeholder">
 				<svg
 					width="100%"
 					height="100%"
@@ -222,9 +222,70 @@
 	</section>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+	.feature .header-and-text {
+		text-transform: capitalize;
+	}
+
 	.feature.one {
 		border: 3px solid red;
+		margin-top: 5rem;
+		padding: 0 1.875rem;
+
+		.feature-head p {
+			margin-top: 1.5rem;
+		}
+
+		.placeholder {
+			margin: 1.875rem auto 0 auto;
+			max-width: 450px;
+			max-height: 491px;
+		}
+	}
+
+	.feature-list.one {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.feature-list.one .feature-item {
+		display: flex;
+		flex-direction: row;
+		gap: 1.375rem;
+	}
+
+	.feature-list.one,
+	.feature-list.one .feature-item {
+		margin-top: 0.9375rem;
+	}
+
+	.feature-text p {
+		margin-top: 1rem;
+	}
+
+	@media (min-width: 600px) {
+		.feature.one {
+			padding: 5rem 7.5rem;
+		}
+	}
+
+	/*this is an example of when NOT to scope CSS to a component*/
+	/*pulled in from the HeaderAndText Vue component */
+	.feature.one .eyebrow {
+		display: none;
+	}
+
+	@media (min-width: 960px) {
+		.feature.one {
+			display: flex;
+			flex-direction: row;
+			gap: 4.125rem;
+		}
+
+		:is(.feature-list.one, .feature-list.one .feature-item):nth-of-type(1) {
+			margin-top: unset;
+		}
 	}
 
 	.feature-item {
