@@ -4,6 +4,7 @@
 	import FeatureOne from '@/modules/feature/FeatureOne.vue';
 	import FooterOne from '@/modules/FooterOne.vue';
 	import ProductModule from '@/modules/ProductModule.vue';
+	import CallToAction from '@/modules/CallToAction.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@
 	<HeroOne />
 	<FeatureOne />
 	<ProductModule />
+	<CallToAction />
 	<FooterOne />
 </template>
 
