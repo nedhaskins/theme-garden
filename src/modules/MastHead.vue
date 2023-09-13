@@ -75,7 +75,7 @@
 	/*put this first one into universal module traits*/
 
 	.navigation {
-		padding: var(--space-s-m);
+		padding: var(--space-s);
 	}
 
 	nav ul {
@@ -84,7 +84,7 @@
 		align-items: center;
 		justify-content: space-evenly;
 		flex-wrap: wrap;
-		gap: var(--space-l);
+		gap: var(--space-m-l);
 		padding: var(--space-m);
 		text-align: center;
 	}
@@ -93,7 +93,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: var(--space-m);
+		gap: var(--space-s-m);
 
 		svg-wrapper {
 			.outline {

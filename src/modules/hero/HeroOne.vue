@@ -33,12 +33,11 @@
 			align-items: center;
 			justify-content: center;
 			max-width: 80%;
-			padding: 12.21875rem 0;
+			padding: var(--space-5xl) 0;
 		}
 
 		p {
 			text-align: center;
-			margin-top: var(--space-s);
 		}
 
 		h1 {

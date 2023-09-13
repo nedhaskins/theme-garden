@@ -13,8 +13,8 @@ a {
 
 h1 {
 	font-weight: 600;
-	font-size: var(--step-6);
-	line-height: var(--space-2xl-3xl);
+	font-size: var(--step-4);
+	line-height: var(--space-xl-2xl);
 	letter-spacing: 0.075rem;
 }
 
@@ -30,6 +30,7 @@ h4 {
 
 p {
 	font-size: var(--step-0);
-	line-height: 1.5125rem;
-	letter-spacing: 0.0125rem;
+	line-height: var(--space-m);
+	letter-spacing: 0.0125em;
+	margin-top: var(--space-s);
 }
