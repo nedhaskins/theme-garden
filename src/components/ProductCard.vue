@@ -28,7 +28,7 @@
 <style lang="scss" scoped>
 	product-card {
 		display: block;
-		border: 3px solid green;
+		border: 1px solid black;
 	}
 	.product-name {
 		padding: 0.5rem 0.5rem 0;
