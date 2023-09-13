@@ -37,18 +37,11 @@
 		}
 
 		p {
-			font-size: 1.25rem;
-			line-height: 1.5125rem;
-			letter-spacing: 0.0125rem;
 			text-align: center;
-			margin-top: 1rem;
+			margin-top: var(--space-s);
 		}
 
 		h1 {
-			font-weight: 600;
-			font-size: 4rem;
-			line-height: 4.840625rem;
-			letter-spacing: 0.075rem;
 			text-align: center;
 		}
 	}

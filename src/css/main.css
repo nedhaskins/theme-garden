@@ -1,7 +1,7 @@
-@import './reset.css';
-@import './setup.css';
-
-@import './typography.css';
+@import 'reset.css';
+@import 'setup.css';
+@import 'utopia.css';
+@import 'typography.css';
 
 #app {
    max-width: 1280px;

@@ -75,7 +75,7 @@
 	/*put this first one into universal module traits*/
 
 	.navigation {
-		padding: 1.25rem;
+		padding: var(--space-s-m);
 	}
 
 	nav ul {
@@ -84,20 +84,16 @@
 		align-items: center;
 		justify-content: space-evenly;
 		flex-wrap: wrap;
-		gap: 1.375rem;
-		padding: 1.375rem;
+		gap: var(--space-l);
+		padding: var(--space-m);
 		text-align: center;
-
-		a {
-			font-size: 0.875rem;
-		}
 	}
 
 	.navigation-right {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 1.25rem;
+		gap: var(--space-m);
 
 		svg-wrapper {
 			.outline {
@@ -109,13 +105,14 @@
 			}
 		}
 
+		/* em values relative to this button's values */
 		.login {
 			border: none;
 			background-color: green;
 			color: white;
-			padding: 0.5rem 1.375rem;
-			border-radius: 0.3125rem;
-			letter-spacing: 0.02875rem;
+			padding: 0.5em 1.375em;
+			border-radius: 0.3125em;
+			letter-spacing: 0.02875em;
 		}
 	}
 
