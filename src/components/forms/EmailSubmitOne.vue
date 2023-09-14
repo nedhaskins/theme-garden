@@ -32,6 +32,10 @@
 		background-color: black;
 		padding: 0.625rem;
 
+		svg {
+			width: unset;
+		}
+
 		svg path {
 			stroke: white;
 		}
