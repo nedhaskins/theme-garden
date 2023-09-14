@@ -17,13 +17,13 @@
 
 <style lang="scss" scoped>
 	.products {
-		// border: 3px solid red;
-		padding: 0 5rem;
-		margin: 5rem 0;
+		border: 3px solid red;
+		background-color: #f9cfd5;
+		padding: var(--space-xl);
 	}
 	.product-list {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		gap: 2.1rem;
+		grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+		gap: var(--space-l);
 	}
 </style>

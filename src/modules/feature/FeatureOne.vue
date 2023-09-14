@@ -48,8 +48,7 @@
 	}
 
 	.feature.one {
-		margin-top: var(--space-2xl);
-		padding: 0 var(--space-xl);
+		padding: var(--space-xl);
 	}
 
 	/*this is an example of when NOT to scope CSS to a component*/
@@ -60,7 +59,7 @@
 
 	.placeholder,
 	.feature-list {
-		margin-top: var(--space-m);
+		margin-top: var(--space-l);
 	}
 
 	.placeholder {
@@ -79,7 +78,7 @@
 
 	@media (min-width: 600px) {
 		.feature.one {
-			padding: 0 var(--space-2xl);
+			// padding: 0 var(--space-2xl);
 		}
 	}
 

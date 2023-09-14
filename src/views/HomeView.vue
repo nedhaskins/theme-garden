@@ -12,17 +12,37 @@
          typography, and UX design choices made for each theme.
       </p>
 
-      <RouterLink to="/test-theme">Link to the first test theme</RouterLink>
+      <button>
+         <RouterLink class="link-1" to="/test-theme">Link to the first test theme</RouterLink>
+      </button>
    </main>
 </template>
 
 <style lang="scss" scoped>
    main {
-      background-color: #ff7cff;
+      background-color: black;
+      min-height: 100vh;
+   }
 
-      p {
-         background-color: lime;
-         padding: 20px;
-      }
+   h1 {
+      color: #ff7cff;
+   }
+
+   p {
+      background-color: lime;
+      padding: 20px;
+   }
+
+   button {
+      margin-top: 36px;
+      background-color: blue;
+      color: white;
+      width: 200px;
+      padding: 1rem;
+      box-shadow: 10px 10px;
+   }
+
+   .link-1 {
+      font-size: 36px;
    }
 </style>
