@@ -32,10 +32,16 @@
 	.product-name__copy,
 	.product-prices__price {
 		font-weight: 700;
+		font-size: var(--step-0);
+	}
+
+	.product-name__copy {
+		font-size: var(--step-1);
 	}
 
 	.product-description__copy {
 		font-size: var(--step--1);
+		line-height: var(--space-s);
 	}
 
 	.product-prices__price {
