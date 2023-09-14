@@ -16,11 +16,16 @@
 </template>
 
 <style lang="scss" scoped>
+	/*Less breathable components here, as it's more of a "set-in-stone" things with measurements */
+
 	.subscribe-module {
-		// border: 3px solid lime;
 		background-color: green;
 		padding: 1.875rem;
-		margin-top: 2.5rem;
+		margin-top: var(--space-l);
+
+		.loud-voice {
+			margin-top: unset;
+		}
 
 		.text {
 			font-size: 0.75rem;
@@ -29,6 +34,12 @@
 			vertical-align: top;
 			opacity: 70%;
 			margin-top: 1.125rem;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.subscribe-module {
+			margin-top: unset;
 		}
 	}
 </style>

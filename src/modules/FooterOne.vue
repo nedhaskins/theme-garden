@@ -63,7 +63,7 @@
 
 	.footer-bottom {
 		// border: 3px solid yellow;
-		margin-top: 3rem;
+		margin-top: var(--space-xl);
 
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -78,7 +78,7 @@
 				height: 100%;
 				flex-direction: column;
 				justify-content: center;
-				gap: 0.6875rem;
+				gap: var(--space-xs);
 			}
 
 			a {
@@ -91,8 +91,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		// width: 100%;
-		// border: 3px solid red;
+
 		svg {
 			width: 100%;
 		}
@@ -103,14 +102,11 @@
 	}
 
 	.icon-section {
-		// border: 3px solid cyan;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 
 		a {
-			// border: 3px solid pink;
-
 			width: 37px;
 		}
 	}

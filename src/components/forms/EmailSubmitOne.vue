@@ -21,6 +21,7 @@
 
 		input {
 			flex: 1;
+			font-size: 1.5rem;
 		}
 	}
 
