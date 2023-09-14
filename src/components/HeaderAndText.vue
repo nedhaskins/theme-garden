@@ -12,10 +12,6 @@
 		flex-direction: column;
 		align-items: center;
 
-		// .header::first-line {
-		// 	line-height: 100%;
-		// }
-
 		.text {
 			margin-top: var(--space-s);
 		}
