@@ -19,7 +19,7 @@
 	.products {
 		border: 3px solid red;
 		background-color: #f9cfd5;
-		padding: var(--space-xl);
+		padding: var(--space-l);
 	}
 	.product-list {
 		display: grid;
