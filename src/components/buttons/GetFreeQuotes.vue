@@ -23,8 +23,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: 48px;
-		gap: 32px;
+		margin-top: var(--space-l);
 	}
 
 	@media (min-width: 720px) {
@@ -34,6 +33,7 @@
 		}
 	}
 
+	/* This is a button, so no utopia values here */
 	.get-free-quotes {
 		width: 204px;
 		height: 44px;
@@ -42,22 +42,20 @@
 		align-items: center;
 		justify-content: space-evenly;
 		padding: 12.5px 22px;
+
+		p {
+			margin-top: unset;
+			color: white;
+			font-size: 16px;
+			line-height: 19.36px;
+			letter-spacing: 0.46px;
+			text-align: center;
+		}
 	}
 
 	.get-free-quotes,
 	.get-free-quotes button {
 		background-color: green;
-	}
-
-	.get-free-quotes {
-		color: white;
-	}
-
-	.get-free-quotes p {
-		font-size: 16px;
-		line-height: 19.36px;
-		letter-spacing: 0.46px;
-		text-align: center;
 	}
 
 	.get-free-quotes button {

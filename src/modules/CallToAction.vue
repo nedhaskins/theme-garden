@@ -4,7 +4,7 @@
 </script>
 
 <template>
-	<section class="call-to-action one">
+	<section class="call-to-action">
 		<inner-column>
 			<div class="cta-card">
 				<HeaderAndText />
@@ -16,7 +16,7 @@
 </template>
 
 <style lang="scss">
-	.call-to-action.one {
+	.call-to-action {
 		text-align: center;
 
 		inner-column {
@@ -26,15 +26,15 @@
 	}
 
 	.call-to-action .header {
-		margin-top: 1.5rem;
+		margin-top: var(--space-s);
 		text-transform: capitalize;
 		font-weight: 500;
 	}
 
 	.cta-card {
 		background-color: #dcfeb7;
-		margin: 2.5rem;
-		padding: 3.75rem 1.6875rem;
+		margin: var(--space-l);
+		padding: var(--space-l);
 	}
 
 	@media (min-width: 720px) {
