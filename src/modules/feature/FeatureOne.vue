@@ -59,7 +59,7 @@
 				</svg-wrapper>
 
 				<div class="feature-text">
-					<h4>Sit quam gravida</h4>
+					<h3>Sit quam gravida</h3>
 					<p>
 						Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum
 						risus.
@@ -95,7 +95,7 @@
 				</svg-wrapper>
 
 				<div class="feature-text">
-					<h4>Sit quam gravida</h4>
+					<h3>Sit quam gravida</h3>
 					<p>
 						Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum
 						risus.
@@ -130,7 +130,7 @@
 				</svg-wrapper>
 
 				<div class="feature-text">
-					<h4>Sit quam gravida</h4>
+					<h3>Sit quam gravida</h3>
 					<p>
 						Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum
 						risus.
@@ -165,7 +165,7 @@
 				</svg-wrapper>
 
 				<div class="feature-text">
-					<h4>Sit quam gravida</h4>
+					<h3>Sit quam gravida</h3>
 					<p>
 						Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum
 						risus.
@@ -200,7 +200,7 @@
 				</svg-wrapper>
 
 				<div class="feature-text">
-					<h4>Sit quam gravida</h4>
+					<h3>Sit quam gravida</h3>
 					<p>
 						Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum
 						risus.
@@ -219,39 +219,41 @@
 
 	.feature.one {
 		// border: 3px solid red;
-		margin-top: 5rem;
-		padding: 0 1.875rem;
+		margin-top: var(--space-2xl);
+		padding: 0 var(--space-xl);
 
 		.feature-head p {
-			margin-top: 1.5rem;
+			// margin-top: 1.5rem;
 		}
 
 		.placeholder {
-			margin: 1.875rem auto 0 auto;
+			margin: var(--space-m) auto 0 auto;
 			max-width: 450px;
 			max-height: 491px;
 		}
 	}
 
 	.feature-list.one {
+		border: 2px solid red;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 	}
 
 	.feature-list.one .feature-item {
+		border: 2px solid green;
 		display: flex;
 		flex-direction: row;
-		gap: 1.375rem;
+		gap: var(--space-m);
 	}
 
 	.feature-list.one,
 	.feature-list.one .feature-item {
-		margin-top: 0.9375rem;
+		margin-top: var(--space-m);
 	}
 
 	.feature-text p {
-		margin-top: 1rem;
+		margin-top: var(--space-s);
 	}
 
 	.feature-item .placeholder {

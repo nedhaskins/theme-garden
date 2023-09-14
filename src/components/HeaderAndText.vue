@@ -1,7 +1,7 @@
 <template>
 	<div class="header-and-text">
 		<p class="eyebrow">Rhoncus, accumsan dictum</p>
-		<h3 class="header">Etiam nulla lectus amet nunc molestie at vulputate.</h3>
+		<h2 class="header">Etiam nulla lectus amet nunc molestie at vulputate.</h2>
 		<p class="text">Neque, pulvinar vestibulum non aliquam.</p>
 	</div>
 </template>
@@ -12,12 +12,12 @@
 		flex-direction: column;
 		align-items: center;
 
-		.header::first-line {
-			line-height: 100%;
-		}
+		// .header::first-line {
+		// 	line-height: 100%;
+		// }
 
 		.text {
-			margin-top: 1rem;
+			margin-top: var(--space-s);
 		}
 	}
 </style>
